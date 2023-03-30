@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lobster+Two&family=Playfair+Display&display=swap');
+@import url(./reset.css);
+
+
+body{
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    border: 10pt ;
+
+}
+
+.background { 
+    background-color: goldenrod;
+}
+
+#container{
+    background: radial-gradient(white,gold);
+    display: flex;
+}
+#main-nav{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+}
+#main-nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#main-nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Playfair Display' , serif;
+    transition: 0.3s;
+    padding: 0.8em;
+    color: goldenrod;
+}
+
+#main-nav ul li a:hover{
+    background: -moz-repeating-radial-gradient(red,gold);
+    color: red;
+    transition: 0.3s;
+}
+header h1{
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: 'playfair display', serif;
+    margin-bottom: 15px;
+    border-bottom: gold solid;
+}
+header h1 span{
+    color: gold;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'playfair display', serif;
+    color: white;
+    font-weight: 900;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+main ul{
+    font-family: 'lobster two', cursive;
+    padding: 10pt;
+    font-size: 15px;
+    padding: 20px;
+    color: whitesmoke;
+    text-decoration: tan,2px;
+}
+main ul li{
+    padding: 10px;
+}
+main ul li{
+    line-height: 50px;
+    border-left: gold 5px solid;
+    border-bottom: gold 5px solid;
+    border-right:gold 5px solid ;
+    border-top: gold 5px solid;
+    margin-bottom: 10px;
+}
+main{
+    border-bottom: gold;
+    margin-bottom: 15px;
+}
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
+footer{
+    justify-items: center;
+    background-color: gold ;
+}
+
+#footer1{
+   display: flex;
+   justify-content: right;
+}
+div form{
+   justify-content: center;
+   margin-bottom: auto;
+   margin-left: auto;
+}
